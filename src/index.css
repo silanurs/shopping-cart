@@ -28,17 +28,31 @@ nav{
   z-index:5;
   color: #004d00;
 }
+Link{
+  color:#004d00;
+}
 h1{
   margin-left:6vw;
+}
+.product-info{
+  margin-top:15vh;
+  display:grid;
+  
 }
 .products{
   margin-top:10vh;
   display:grid;
   grid-template-columns:repeat(4, 1fr);
-  grid-template-rows:repeat(4,1fr);
+  grid-template-rows:repeat(auto,1fr);
   column-gap:3vw;
   row-gap:3vh;
   z-index:-1;
+}
+.card{
+  display:grid;
+  justify-items:center;
+  justify-content: center;
+  padding-bottom:0px;
 }
 .brand{
   margin-right:auto;
