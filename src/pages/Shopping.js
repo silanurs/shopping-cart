@@ -15,7 +15,6 @@ const Products = (props)=>{
             <h4 className="card-title"><strong>{item.title}</strong></h4>
             <h3 className="card-title"><strong>{item.price}</strong></h3>
             <p className="card-text">{truncate(props.text)}</p>
-            <button className="btn">Add to Cart</button>
             <Link to={item.id} className="btn">View Product</Link>
          </div>
       </div>
