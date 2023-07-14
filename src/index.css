@@ -103,3 +103,24 @@ h1{
   height: 100vh;
   object-fit: cover;
 }
+.cart{
+  background-color:#ffc299;
+  display:flex;
+  column-gap:3vw;
+  width:30vw;;
+  border-bottom: 1px solid #004d00;
+  justify-content:flex-start;
+}
+.shopping-cart{
+  margin-top:10vh;
+  display:flex;
+  flex-direction: column;
+  gap:2vh;
+  align-items:center;
+}
+.remove-cart:hover{
+  font-weight:bold;
+}
+.cart-title{
+  margin-right:auto;
+}

@@ -17,9 +17,12 @@ import product9 from "./imgs/shopping-imgs/product9.jpg"
 import product10 from "./imgs/shopping-imgs/product10.jpg"
 import product11 from "./imgs/shopping-imgs/product11.jpg"
 import product12 from "./imgs/shopping-imgs/product12.jpg"
+import { useState } from "react";
 
 
 const App = () => {
+  const [cart, setCart] = useState([ ]);
+
   const images =[
     { id:"/products/AHA-BHA Serum", src:product1, title:"AHA-BHA Serum", price:"5$"},
     { id:"/products/Glycolic Acid Serum", src:product2, title:"Glycolic Acid Serum", price:"6$"},
@@ -53,9 +56,9 @@ const App = () => {
       <Route path="/" element={<HomePage/>}></Route>
       <Route path="/products" >
         <Route index element={<Products images={images} text={text}/>}></Route>
-        <Route path=":id" element={<Product images={images} text={text}/>}></Route>
+        <Route path=":id" element={<Product images={images} text={text} addCart={setCart} cart={cart}/>}></Route>
       </Route>
-      <Route path="/cart" element={<Cart/>}></Route>
+      <Route path="/cart" element={<Cart cart={cart}/>}></Route>
       <Route path="*" element={<NotFound/>}></Route>
      </Routes>
     </div>
