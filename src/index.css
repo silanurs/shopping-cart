@@ -124,3 +124,17 @@ h1{
 .cart-title{
   margin-right:auto;
 }
+.not-found{
+  margin-top:10vh;
+}
+.link{
+  text-decoration: none;
+  color: #004d00;
+}
+.active{
+  text-decoration: underline;
+}
+.badge{
+  background-color:#004d00;
+  font-size:0.5rem;
+}

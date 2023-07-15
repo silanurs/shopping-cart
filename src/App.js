@@ -1,4 +1,4 @@
-import { Routes, Route, Link}  from "react-router-dom";
+import { Routes, Route, NavLink}  from "react-router-dom";
 import HomePage from "./pages/HomePage.js"
 import Products from "./pages/Shopping.js"
 import 'bootstrap/dist/css/bootstrap.css';
@@ -48,9 +48,12 @@ const App = () => {
     <div>
      <nav className="container-fluid">
         <h1 className="brand"><strong>CosmetiCo</strong></h1>
-        <Link to="/" >Home</Link>
-        <Link to="products">Shopping</Link>
-        <Link  to="cart" className="fa-solid fa-basket-shopping"></Link>
+        <NavLink  className="link" to="/" >Home</NavLink>
+        <NavLink className="link" to="products">Shopping</NavLink>
+        <NavLink  to="cart" className="fa-solid fa-basket-shopping link">
+        <span className="badge ">0</span>
+        </NavLink>
+        
      </nav>
      <Routes>
       <Route path="/" element={<HomePage/>}></Route>
