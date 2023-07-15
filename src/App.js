@@ -25,18 +25,18 @@ const App = () => {
   const [item, setItem] = useState(0);
 
   const images =[
-    { id:"/products/AHA-BHA Serum", src:product1, title:"AHA-BHA Serum", price:"5$"},
-    { id:"/products/Glycolic Acid Serum", src:product2, title:"Glycolic Acid Serum", price:"6$"},
-    { id:"/products/Vitamin C", src:product3, title:"Vitamin C", price:"5$"},
-    { id:"/products/Skin Care Set", src:product4, title:"Skin Care Set", price:"12$"},
-    { id:"/products/Retinol Set", src:product5, title:"Retinol Set", price:"15$"},
-    { id:"/products/Body Lotions", src:product6, title:"Body Lotions", price:"8$"},
-    { id:"/products/Perfume", src:product7, title:"Perfume", price:"11$"},
-    { id:"/products/PHA Serum", src:product8, title:"PHA Serum", price:"6$"},
-    { id:"/products/Hand Cream", src:product9, title:"Hand Cream", price:"3$"},
-    { id:"/products/Bakuchiol Serum", src:product10, title:"Bakuchiol Serum", price:"5$"},
-    { id:"/products/Sun Cream", src:product11, title:"Sun Cream", price:"13$"},
-    { id:"/products/Scented Body Mist", src:product12, title:"Scented Body Mist", price:"9$"}
+    { id:"/products/AHA-BHA Serum", src:product1, title:"AHA-BHA Serum", price:5},
+    { id:"/products/Glycolic Acid Serum", src:product2, title:"Glycolic Acid Serum", price:6},
+    { id:"/products/Vitamin C", src:product3, title:"Vitamin C", price:5},
+    { id:"/products/Skin Care Set", src:product4, title:"Skin Care Set", price:12},
+    { id:"/products/Retinol Set", src:product5, title:"Retinol Set", price:15},
+    { id:"/products/Body Lotions", src:product6, title:"Body Lotions", price:8},
+    { id:"/products/Perfume", src:product7, title:"Perfume", price:11},
+    { id:"/products/PHA Serum", src:product8, title:"PHA Serum", price:6},
+    { id:"/products/Hand Cream", src:product9, title:"Hand Cream", price:3},
+    { id:"/products/Bakuchiol Serum", src:product10, title:"Bakuchiol Serum", price:5},
+    { id:"/products/Sun Cream", src:product11, title:"Sun Cream", price:13},
+    { id:"/products/Scented Body Mist", src:product12, title:"Scented Body Mist", price:9}
  ]
  const text = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget gravida erat. Ut a imperdiet elit.
   Donec mauris felis, ornare quis congue id, sagittis in mauris. Aliquam tempor nisl id lorem volutpat, non tempor mi tristique.

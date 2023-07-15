@@ -21,7 +21,7 @@ const Product = (props)=>{
       <img src={product[0]["src"]} alt="product"></img>
       <div className="product-side">
       <h2 className=""><strong>{id}</strong></h2>
-      <p><strong>{product[0]["price"]}</strong></p>
+      <p><strong>{product[0]["price"]}$</strong></p>
         <p>"{props.text}"</p>
         <button className="btn add-to-cart" onClick={addToCart}>Add to Cart</button>
       </div>

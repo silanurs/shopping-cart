@@ -13,7 +13,7 @@ const Products = (props)=>{
          <img className="card-img-top px-2 py-2" src={item.src} alt="img" style={{ height:"250px"}}></img>
          <div className="card-body">
             <h4 className="card-title"><strong>{item.title}</strong></h4>
-            <h3 className="card-title"><strong>{item.price}</strong></h3>
+            <h3 className="card-title"><strong>{item.price}$</strong></h3>
             <p className="card-text">{truncate(props.text)}</p>
             <Link to={item.id} className="btn">View Product</Link>
          </div>
