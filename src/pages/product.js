@@ -1,8 +1,13 @@
 import { useParams } from "react-router-dom";
 const Product = (props)=>{
     const {id} = useParams();
+    const addItem = ()=>{
+      props.setItem(props.item + 1)
+      document.querySelector(".badge").textContent=props.item
+    }
     const product= props.images.filter(item=>item.title===id);
     const addToCart = ()=>{
+      addItem()
       props.addCart([...props.cart, product]);
       document.querySelector('.add-to-cart').classList.add('disabled');
       if(document.querySelector('.add-to-cart').classList.contains('disabled')){

@@ -22,6 +22,7 @@ import { useState } from "react";
 
 const App = () => {
   const [cart, setCart] = useState([ ]);
+  const [item, setItem] = useState(0);
 
   const images =[
     { id:"/products/AHA-BHA Serum", src:product1, title:"AHA-BHA Serum", price:"5$"},
@@ -51,7 +52,7 @@ const App = () => {
         <NavLink  className="link" to="/" >Home</NavLink>
         <NavLink className="link" to="products">Shopping</NavLink>
         <NavLink  to="cart" className="fa-solid fa-basket-shopping link">
-        <span className="badge ">0</span>
+        <span className="badge ">{item}</span>
         </NavLink>
         
      </nav>
@@ -59,7 +60,7 @@ const App = () => {
       <Route path="/" element={<HomePage/>}></Route>
       <Route path="/products" >
         <Route index element={<Products images={images} text={text}/>}></Route>
-        <Route path=":id" element={<Product images={images} text={text} addCart={setCart} cart={cart}/>}></Route>
+        <Route path=":id" element={<Product images={images} text={text} addCart={setCart} cart={cart} item={item} setItem={setItem}/>}></Route>
       </Route>
       <Route path="/cart" element={<Cart cart={cart}/>}></Route>
       <Route path="*" element={<NotFound/>}></Route>
