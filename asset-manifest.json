@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.30608cde.css",
+    "main.js": "/shopping-cart/static/js/main.d2b624f0.js",
+    "static/media/product7.jpg": "/shopping-cart/static/media/product7.6310dda5663b01b541f4.jpg",
+    "static/media/homepage6.jpg": "/shopping-cart/static/media/homepage6.3a4bb5afc44b602ae333.jpg",
+    "static/media/homepage2.jpg": "/shopping-cart/static/media/homepage2.d35be16b07ef2386d88e.jpg",
+    "static/media/product5.jpg": "/shopping-cart/static/media/product5.72c0492de7be8ce3fa92.jpg",
+    "static/media/homepage5.jpg": "/shopping-cart/static/media/homepage5.8df9e9bd59ab46b192a2.jpg",
+    "static/media/homepage3.jpg": "/shopping-cart/static/media/homepage3.bdd1ef66faa388077f30.jpg",
+    "static/media/homepage4.jpg": "/shopping-cart/static/media/homepage4.408eeb8cf98cfe19761f.jpg",
+    "static/media/product6.jpg": "/shopping-cart/static/media/product6.c74b138218e91a5b404b.jpg",
+    "static/media/product3.jpg": "/shopping-cart/static/media/product3.de3c57403f8e5f497284.jpg",
+    "static/media/homepage1.jpg": "/shopping-cart/static/media/homepage1.d92dd2744ca9ffbbd7c6.jpg",
+    "static/media/product10.jpg": "/shopping-cart/static/media/product10.b41089b27ecd27d8af2b.jpg",
+    "static/media/product11.jpg": "/shopping-cart/static/media/product11.7d98f7baea103fddff89.jpg",
+    "static/media/product1.jpg": "/shopping-cart/static/media/product1.6173e8f07926548d0444.jpg",
+    "static/media/product12.jpg": "/shopping-cart/static/media/product12.3ff9517ac754fe0f08d4.jpg",
+    "static/media/product2.jpg": "/shopping-cart/static/media/product2.76fa752a90b525f70a62.jpg",
+    "static/media/product4.jpg": "/shopping-cart/static/media/product4.905de712a1d82d83623c.jpg",
+    "static/media/product8.jpg": "/shopping-cart/static/media/product8.ded2ce6d729b372d6fb2.jpg",
+    "static/media/product9.jpg": "/shopping-cart/static/media/product9.6abd4f15a9de0df8c915.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.30608cde.css.map": "/shopping-cart/static/css/main.30608cde.css.map",
+    "main.d2b624f0.js.map": "/shopping-cart/static/js/main.d2b624f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30608cde.css",
+    "static/js/main.d2b624f0.js"
+  ]
+}
