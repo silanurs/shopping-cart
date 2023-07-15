@@ -4,7 +4,7 @@ import background3 from "../imgs/homepage-imgs/homepage3.jpg";
 import background4 from "../imgs/homepage-imgs/homepage4.jpg";
 import background5 from "../imgs/homepage-imgs/homepage5.jpg";
 import background6 from "../imgs/homepage-imgs/homepage6.jpg";
-import background7 from "../imgs/homepage-imgs/homepage7.jpg";
+
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -29,9 +29,6 @@ const HomePage = () => {
         <SwiperSlide><img src={background4} alt="Slide 4"></img></SwiperSlide>
         <SwiperSlide><img src={background5} alt="Slide 5"></img></SwiperSlide>
         <SwiperSlide><img src={background6} alt="Slide 6"></img></SwiperSlide>
-        <SwiperSlide><img src={background7} alt="Slide 7"></img></SwiperSlide>
-        
-
       </Swiper>
 
     </>

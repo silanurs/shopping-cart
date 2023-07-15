@@ -16,7 +16,7 @@ const Product = (props)=>{
     }
 
    return(
-   <div className="container m-5 p-5 product-info">
+   <div className="product-info">
     <div className="product-details">
       <img src={product[0]["src"]} alt="product"></img>
       <div className="product-side">

@@ -44,6 +44,9 @@ h1{
   row-gap:3vh;
   z-index:-1;
 }
+.product-info{
+  margin:10vw 10vh 10vw 10vh;
+}
 .product-details{
   display:grid;
   grid-template-columns:30vw auto;
@@ -82,14 +85,15 @@ h1{
   margin-right:3vw;
 }
 .swiper {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: #ffc8a3;
+
 
   /* Center slide text vertically */
   display: flex;
@@ -99,7 +103,7 @@ h1{
 
 .swiper-slide img {
   display: block;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   object-fit: cover;
 }
@@ -107,7 +111,7 @@ h1{
   background-color:#ffc299;
   display:flex;
   column-gap:3vw;
-  width:30vw;;
+  width:30vw;
   border-bottom: 1px solid #004d00;
   justify-content:flex-start;
 }
@@ -132,9 +136,7 @@ h1{
   flex-direction:column;
   gap:2vh;
 }
-.remove-cart:hover{
-  font-weight:bold;
-}
+
 .cart-title{
   margin-right:auto;
 }
@@ -160,5 +162,92 @@ h1{
 .checkout-btn:hover{
   background-color:#032703;
   color:white;
-  
+}
+@media (max-width:1000px){
+  .products{
+    margin-top:10vh;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(auto,1fr);
+    column-gap:3vw;
+    row-gap:3vh;
+    z-index:-1;
+  } 
+  .product-details{
+    display:flex;
+    flex-direction:column;
+  }
+  .checkout{
+    background-color: #ffe4d1;
+    width:fit-content;
+    height:fit-content;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:2rem;
+  }
+
+.checkout-btn{
+  background-color: #004d00;
+  color:white;
+  width:fit-content;
+}
+.swiper-slide img {
+  display: block;
+  width:100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+}
+@media (max-width:500px){
+  .products{
+    margin-top:10vh;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:repeat(auto,1fr);
+    column-gap:3vw;
+    row-gap:3vh;
+    z-index:-1;
+  }
+  .products > img{
+    height:150px;
+  }
+  .product-details{
+    display:flex;
+    flex-direction:column;
+
+  }
+  .product-info{
+    margin-top:10vh;
+  }
+  .product-details>img{
+    width:45vw;
+    height:auto;
+  }
+  .shopping-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .checkout{
+    background-color: #ffe4d1;
+    width:fit-content;
+    height:fit-content;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:2rem;
+  }
+
+.checkout-btn{
+  background-color: #004d00;
+  color:white;
+  width:fit-content;
+}
+.cart{
+  width:60vw;
+}
 }
