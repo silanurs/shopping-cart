@@ -10,8 +10,8 @@ Live Demo: https://silanurs.github.io/shopping-cart/
 # Getting Started
 ## installing and running
 ```
-git clone https://github.com/silanurs/memory-card.git
-cd memory-card
+git clone https://github.com/silanurs/shopping-cart.git
+cd shopping-cart
 npm install
 npm start
 ```
